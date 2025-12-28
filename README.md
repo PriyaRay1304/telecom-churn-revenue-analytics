@@ -1,16 +1,16 @@
-*Telecom Churn & Revenue Risk Analytics
+# Telecom Churn & Revenue Risk Analytics
 ---
 ***Customer churn, revenue impact, and risk segmentation***
 
 ---
 
-##Problem Statement
+## Problem Statement
 Telecom companies face significant revenue loss due to customer churn, especially when **high-value customers leave early** in their lifecycle.  
 This project analyzes customer churn patterns, quantifies **revenue impact**, and segments customers into **churn risk categories** to help prioritize retention efforts.
 
 ---
 
-##Dataset Overview
+## Dataset Overview
 - **Source:** IBM Telco Customer Churn Dataset  
 - **Records:** ~7,000 customers  
 - **Key Attributes:**
@@ -22,14 +22,14 @@ This project analyzes customer churn patterns, quantifies **revenue impact**, an
 
 ---
 
-##Tools & Technologies
+## Tools & Technologies
 - **PostgreSQL** – Data cleaning, feature engineering, analytics
 - **SQL** – Aggregations, conditional logic, churn & revenue analysis
 - **Power BI** – Interactive dashboard & business storytelling
 
 ---
 
-##Data Preparation & Modeling
+## Data Preparation & Modeling
 - Built a **raw → processed** data pipeline in PostgreSQL
 - Cleaned and standardized billing fields (`total_charges`)
 - Engineered analytical features:
@@ -42,7 +42,7 @@ This project analyzes customer churn patterns, quantifies **revenue impact**, an
 
 ---
 
-##Key Analysis Performed
+## Key Analysis Performed
 - Overall **customer churn rate**
 - **Revenue churn** vs customer churn comparison
 - Churn analysis by:
@@ -54,7 +54,7 @@ This project analyzes customer churn patterns, quantifies **revenue impact**, an
 
 ---
 
-##Key Insights
+## Key Insights
 - **Month-to-month contracts** show the highest churn rate (~43%)
 - **Early-tenure customers (0–1 year)** contribute the most to revenue churn
 - **Revenue churn (~30%) exceeds customer churn (~26%)**, highlighting value-weighted risk
@@ -62,14 +62,14 @@ This project analyzes customer churn patterns, quantifies **revenue impact**, an
 
 ---
 
-##Dashboard Preview
+## Dashboard Preview
 
 ###Full Dashboard Overview  
 [View Screenshot](powerbi/dashboard_screenshot/dashboard.png)
 
 ---
 
-##Business Impact
+## Business Impact
 This analysis enables telecom decision-makers to:
 - Identify **where churn is happening**
 - Understand **when churn hurts revenue the most**
