@@ -64,7 +64,7 @@ This project analyzes customer churn patterns, quantifies **revenue impact**, an
 
 ## Dashboard Preview
 
-###Full Dashboard Overview  
+### Full Dashboard Overview  
 [View Screenshot](powerbi/dashboard_screenshot/dashboard.png)
 
 ---
