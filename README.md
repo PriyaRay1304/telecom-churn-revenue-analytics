@@ -1,4 +1,4 @@
-#Telecom Churn & Revenue Risk Analytics
+*Telecom Churn & Revenue Risk Analytics
 ---
 ***Customer churn, revenue impact, and risk segmentation***
 
